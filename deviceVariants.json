@@ -1,0 +1,702 @@
+{
+	"iPad1,1": {
+		"name": "com.apple.ipad",
+		"default": "",
+		"variants": []
+	},
+	"iPad(2,[1-4]{1}|3,[1-6]{1})": {
+		"name": "com.apple.ipad-2",
+		"default": "black",
+		"variants": [
+			{
+				"name": "Black",
+				"variant": "black"
+			},
+			{
+				"name": "White",
+				"variant": "white"
+			}
+		]
+	},
+	"iPad(4,[1-3]{1})": {
+		"name": "com.apple.ipad-air",
+		"default": "99989b",
+		"variants": [
+			{
+				"name": "Silver",
+				"variant": "d7d9d8"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "99989b"
+			}
+		]
+	},
+	"iPad(5,(3|4){1}|6,(11|12){1})": {
+		"name": "com.apple.ipad-air2-wifi",
+		"default": "b4b5b9",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "e1ccb5"
+			},
+			{
+				"name": "Silver",
+				"variant": "d7d9d8"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "b4b5b9"
+			}
+		]
+	},
+	"iPad(6,(3|4){1})": {
+		"name": "com.apple.ipad-pro-9point7-wifi",
+		"default": "b9b7ba",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "e1ccb7"
+			},
+			{
+				"name": "Silver",
+				"variant": "dadcdb"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "b9b7ba"
+			},
+			{
+				"name": "Rose Gold",
+				"variant": "e4c1b9"
+			}
+		]
+	},
+	"iPad(6,(7|8){1}|7,(1|2){1})": {
+		"name": "com.apple.ipad-pro-wifi",
+		"default": "b4b5b9",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "e1ccb5"
+			},
+			{
+				"name": "Silver",
+				"variant": "d7d9d8"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "b4b5b9"
+			}
+		]
+	},
+	"iPad(7,(3|4){1})": {
+		"name": "com.apple.ipad-pro-10point5-wifi",
+		"default": "1",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "3"
+			},
+			{
+				"name": "Silver",
+				"variant": "2"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "1"
+			},
+			{
+				"name": "Rose Gold",
+				"variant": "4"
+			}
+		]
+	},
+	"iPad(7,(5|6){1})": {
+		"name": "com.apple.ipad-6-wifi",
+		"default": "1",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "3"
+			},
+			{
+				"name": "Silver",
+				"variant": "2"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "1"
+			}
+		]
+	},
+	"iPad(8,[1-4]{1})": {
+		"name": "com.apple.ipad-pro-11",
+		"default": "1",
+		"variants": [
+			{
+				"name": "Silver",
+				"variant": "2"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "1"
+			}
+		]
+	},
+	"iPad(8,[5.8]{1})": {
+		"name": "com.apple.ipad-pro-12poin9",
+		"default": "1",
+		"variants": [
+			{
+				"name": "Silver",
+				"variant": "2"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "1"
+			}
+		]
+	},
+	
+	"iPad(2,[5-7]{1})": {
+		"name": "com.apple.ipad-mini",
+		"default": "black-wifi",
+		"variants": [
+			{
+				"name": "Black",
+				"variant": "black-wifi"
+			},
+			{
+				"name": "White",
+				"variant": "white-wifi"
+			}
+		]
+	},
+	"iPad(4,[4-6]{1})": {
+		"name": "com.apple.ipad-mini2",
+		"default": "99989b",
+		"variants": [
+			{
+				"name": "Silver",
+				"variant": "d7d9d8"
+			},
+			{
+				"name": "Space Grey",
+				"variant": "99989b"
+			}
+		]
+	},
+	"iPad(4,[7-9]{1})": {
+		"name": "com.apple.ipad-mini3-wifi",
+		"default": "b4b5b9",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "e1ccb5"
+			},
+			{
+				"name": "Silver",
+				"variant": "d7d9d8"
+			},
+			{
+				"name": "Space Grey",
+				"variant": "b4b5b9"
+			}
+		]
+	},
+	"iPad(5,(1|2){1})": {
+		"name": "com.apple.ipad-mini4-wifi",
+		"default": "b4b5b9",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "e1ccb5"
+			},
+			{
+				"name": "Silver",
+				"variant": "d7d9d8"
+			},
+			{
+				"name": "Space Grey",
+				"variant": "b4b5b9"
+			}
+		]
+	},
+	
+	"iPhone1,1": {
+		"name": "com.apple.iphone",
+		"default": "",
+		"variants": []
+	},
+	"iPhone(1,2|2,1)": {
+		"name": "com.apple.iphone-3g",
+		"default": "",
+		"variants": []
+	},
+	"iPhone(3,(1|2){1})": {
+		"name": "com.apple.iphone-4",
+		"default": "black",
+		"variants": [
+			{
+				"name": "Black",
+				"variant": "black"
+			},
+			{
+				"name": "White",
+				"variant": "white"
+			}
+		]
+	},
+	"iPhone(3,3|4,1)": {
+		"name": "com.apple.iphone-4-cdma",
+		"default": "black",
+		"variants": [
+			{
+				"name": "Black",
+				"variant": "black"
+			},
+			{
+				"name": "White",
+				"variant": "white"
+			}
+		]
+	},
+	"iPhone(5,(1|2){1})": {
+		"name": "com.apple.iphone-5",
+		"default": "black",
+		"variants": [
+			{
+				"name": "Black",
+				"variant": "black"
+			}, 
+			{
+				"name": "White",
+				"variant": "white"
+			}
+		]
+	},
+	"iPhone(5,(3|4){1})": {
+		"name": "com.apple.iphone-5c",
+		"default": "46abe0",
+		"variants": [
+			{
+				"name": "Blue",
+				"variant": "46abe0"
+			},
+			{
+				"name": "Green",
+				"variant": "a1e877"
+			},
+			{
+				"name": "Pink",
+				"variant": "fe767a"
+			},
+			{
+				"name": "White",
+				"variant": "f5f4f7"
+			},
+			{
+				"name": "Yellow",
+				"variant": "faf189"
+			}
+		]
+	},
+	"iPhone(6,(1|2){1})": {
+		"name": "com.apple.iphone-5s",
+		"default": "99989b",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "d4c5b3"
+			},
+			{
+				"name": "Silver",
+				"variant": "d7d9d8"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "99989b"
+			}
+		]
+	},
+	"iPhone7,1": {
+		"name": "com.apple.iphone-6-plus",
+		"default": "b4b5b9",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "e1ccb5"
+			},
+			{
+				"name": "Silver",
+				"variant": "d7d9d8"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "b4b5b9"
+			}
+		]
+	},
+	"iPhone7,2": {
+		"name": "com.apple.iphone-6",
+		"default": "b4b5b9",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "e1ccb5"
+			},
+			{
+				"name": "Silver",
+				"variant": "d7d9d8"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "b4b5b9"
+			}
+		]
+	},
+	"iPhone8,1": {
+		"name": "com.apple.iphone-6s",
+		"default": "b9b7ba",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "e1ccb7"
+			},
+			{
+				"name": "Silver",
+				"variant": "dadcdb"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "b9b7ba"
+			},
+			{
+				"name": "Rose Gold",
+				"variant": "e4c1b9"
+			}
+		]
+	},
+	"iPhone8,2": {
+		"name": "com.apple.iphone-6s-plus",
+		"default": "b9b7ba",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "e1ccb7"
+			},
+			{
+				"name": "Silver",
+				"variant": "dadcdb"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "b9b7ba"
+			},
+			{
+				"name": "Rose Gold",
+				"variant": "e4c1b9"
+			}
+		]
+	},
+	"iPhone8,4": {
+		"name": "com.apple.iphone-se",
+		"default": "aeb1b8",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "d6c8b9"
+			},
+			{
+				"name": "Silver",
+				"variant": "dcdede"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "aeb1b8"
+			},
+			{
+				"name": "Rose Gold",
+				"variant": "e5bdb5"
+			}
+		]
+	},
+	"iPhone(9,(1|3){1})": {
+		"name": "com.apple.iphone-7",
+		"default": "1",
+		"variants": [
+			{
+				"name": "Black",
+				"variant": "1"
+			},
+			{
+				"name": "Gold",
+				"variant": "3"
+			},
+			{
+				"name": "Jet Black",
+				"variant": "5"
+			},
+			{
+				"name": "PRODUCT(RED)",
+				"variant": "6"
+			},
+			{
+				"name": "Rose Gold",
+				"variant": "4"
+			},
+			{
+				"name": "Silver",
+				"variant": "2"
+			}
+		]
+	},
+	"iPhone(9,(2|4){1})": {
+		"name": "com.apple.iphone-7-plus",
+		"default": "1",
+		"variants": [
+			{
+				"name": "Black",
+				"variant": "1"
+			},
+			{
+				"name": "Gold",
+				"variant": "3"
+			},
+			{
+				"name": "Jet Black",
+				"variant": "5"
+			},
+			{
+				"name": "PRODUCT(RED)",
+				"variant": "6"
+			},
+			{
+				"name": "Rose Gold",
+				"variant": "4"
+			},
+			{
+				"name": "Silver",
+				"variant": "2"
+			}
+		]
+	},
+	"iPhone(10,(1|4){1})": {
+		"name": "com.apple.iphone",
+		"default": "7-5",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "8-7"
+			},
+			{
+				"name": "Silver",
+				"variant": "7-2"
+			},
+			{
+				"name": "Space Grey",
+				"variant": "7-5"
+			},
+			{
+				"name": "PRODUCT(RED)",
+				"variant": "8-6"
+			}
+		]
+	},
+	"iPhone(10,(2|5){1})": {
+		"name": "com.apple.iphone",
+		"default": "7-plus-5",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "8-plus-3"
+			},
+			{
+				"name": "Silver",
+				"variant": "7-plus-2"
+			},
+			{
+				"name": "Space Grey",
+				"variant": "7-plus-5"
+			},
+			{
+				"name": "PRODUCT(RED)",
+				"variant": "8-plus-6"
+			}
+		]
+	},
+	"iPhone(10,(3|6){1})": {
+		"name": "com.apple.iphone-x",
+		"default": "1",
+		"variants": [
+			{
+				"name": "Silver",
+				"variant": "2"
+			},
+			{
+				"name": "Space Grey",
+				"variant": "1"
+			}
+		]
+	},
+	"iPhone11,2": {
+		"name": "com.apple.iphone-xs",
+		"default": "1",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "4"
+			},
+			{
+				"name": "Silver",
+				"variant": "2"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "1"
+			}
+		]
+	},
+	"iPhone(11,(4|6){1})": {
+		"name": "com.apple.iphone-xs-max",
+		"default": "1",
+		"variants": [
+			{
+				"name": "Gold",
+				"variant": "4"
+			},
+			{
+				"name": "Silver",
+				"variant": "2"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "1"
+			}
+		]
+	},
+	"iPhone11,8": {
+		"name": "com.apple.iphone-xr",
+		"default": "1",
+		"variants": [
+			{
+				"name": "Black",
+				"variant": "1"
+			},
+			{
+				"name": "Blue",
+				"variant": "9"
+			},
+			{
+				"name": "Coral",
+				"variant": "8"
+			},
+			{
+				"name": "PRODUCT(RED)",
+				"variant": "6"
+			},
+			{
+				"name": "White",
+				"variant": "2"
+			},
+			{
+				"name": "Yellow",
+				"variant": "7"
+			}
+		]
+	},
+	
+	"iPod1,1": {
+		"name": "com.apple.ipod-touch",
+		"default": "",
+		"variants": []
+	},
+	"iPod(2|3),1": {
+		"name": "com.apple.ipod-touch-2",
+		"default": "",
+		"variants": []
+	},
+	"iPod4,1": {
+		"name": "com.apple.ipod-touch-4",
+		"default": "black",
+		"variants": [
+			{
+				"name": "Black",
+				"variant": "black"
+			},
+			{
+				"name": "White",
+				"variant": "white"
+			}
+		]
+	},
+	"iPod5,1": {
+		"name": "com.apple.ipod-touch-5",
+		"default": "blue",
+		"variants": [
+			{
+				"name": "Black & Silver",
+				"variant": "silver"
+			},
+			{
+				"name": "Black & Slate",
+				"variant": "black"
+			},
+			{
+				"name": "Blue",
+				"variant": "blue"
+			},
+			{
+				"name": "Pink",
+				"variant": "pink"
+			},
+			{
+				"name": "PRODUCT(RED)",
+				"variant": "red"
+			},
+			{
+				"name": "White & Silver",
+				"variant": "white"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "sparrow"
+			},
+			{
+				"name": "Yellow",
+				"variant": "yellow"
+			}
+		]
+	},
+	"iPod7,1": {
+		"name": "com.apple.ipod-touch-6",
+		"default": "458dce",
+		"variants": [
+			{
+				"name": "Blue",
+				"variant": "458dce"
+			},
+			{
+				"name": "Gold",
+				"variant": "e1ccb7"
+			},
+			{
+				"name": "Pink",
+				"variant": "e75090"
+			},
+			{
+				"name": "PRODUCT(RED)",
+				"variant": "c6353f"
+			},
+			{
+				"name": "Silver",
+				"variant": "dadcdb"
+			},
+			{
+				"name": "Space Gray",
+				"variant": "6b6a6d"
+			}
+		]
+	}
+}

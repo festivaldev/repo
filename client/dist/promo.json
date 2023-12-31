@@ -1,0 +1,22 @@
+[
+	{
+		"caption": "News",
+		"title": "The new FESTIVAL Repo",
+		"subtitle": "Probably the biggest update to date",
+		"image": "https://via.placeholder.com/384x247",
+		"url": "/package/ml.festival.notchsimulator"
+	},
+	{
+		"caption": "Who needs an iPhone X anyways?",
+		"title": "Notch'd",
+		"subtitle": "Simulate that iPhone X Notch!",
+		"image": "https://via.placeholder.com/384x247",
+		"url": "/package/ml.festival.notchsimulator"
+	},
+	{
+		"caption": "Coming soon",
+		"title": "SIMulator",
+		"subtitle": "Now you've got cellular data",
+		"image": "https://via.placeholder.com/384x247"
+	}
+]

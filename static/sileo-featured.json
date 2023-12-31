@@ -1,0 +1,19 @@
+{
+	"class": "FeaturedBannersView",
+	"itemSize": "{263, 148}",
+	"itemCornerRadius": 12,
+	"banners": [
+		{
+			"package": "ml.festival.lockwatch2",
+			"title": "LockWatch 2 (iOS 13)",
+			"url": "https://repo.festival.tf/resources/headers/ml.festival.lockwatch2.png",
+			"hideShadow": "false"
+		},
+		{
+			"package": "ml.festival.notchsimulator",
+			"title": "Notch'd",
+			"url": "https://repo.festival.tf/resources/headers/ml.festival.notchsimulator.png",
+			"hideShadow": "false"
+		}
+	]
+}

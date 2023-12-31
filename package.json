@@ -1,0 +1,32 @@
+{
+  "name": "festival-packd",
+  "version": "1.0.0",
+  "description": "Package management system for the Team FESTIVAL Cydia Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config server/server.js",
+    "build": "cd admin && npm run build && cd ../client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/festivaldev/Packd.git"
+  },
+  "author": "SniperGER",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/festivaldev/Packd/issues"
+  },
+  "homepage": "https://github.com/festivaldev/Packd#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^6.2.0"
+  },
+  "devDependencies": {
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

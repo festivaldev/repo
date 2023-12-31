@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTPS} !=on
+RewriteCond %{ENV:HTTPS} !=on
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+RewriteRule ^(.*) http://localhost:64031/$1 [P]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} rasha1.in [NC,OR]
+RewriteCond %{HTTP_REFERER} kiiimo.org [NC,OR]
+RewriteCond %{HTTP_REFERER} cydia.kiiimo.org [NC]
+RewriteRule .* - [F]
